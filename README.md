@@ -18,6 +18,7 @@ The TeamManager class uses the Singleton design pattern.  Ensuring that this cla
 Pattern strategy determines the actions of team players such as running, defending, hitting.  Strategy defines these actions and makes them interchangeable.  Allows you to change the algorithm.
 The pattern decorator allows you to choose the color of the uniform and brand of boots for football team players.  A decorator allows you to dynamically add these attributes to objects by wrapping it in a decorator object.
 The Observer pattern defines a one-to-many relationship between objects so that when the state of one object changes, all objects that depend on it are notified and updated automatically.  It allows you to send notifications to all subscribers about a football match event.
+The State pattern is used here. What is this pattern? State is a behavioral design pattern that lets an object alter its behavior when its internal state changes. It appears as if the object changed its class. The match is scheduled, but will it be or not? If the match does take place, then it will go on for 90 minutes. If not, then you need to specify the reason why the match was canceled, and users will receive a notification of cancellation for certain reasons.
 Conclusion:
 • Key points of your project. Mention used patterns.я
 • Project outcomes. Challenges faced.
