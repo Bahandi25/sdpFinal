@@ -10,10 +10,9 @@ A program for organizing and managing football matches.  The program provides th
 The program is designed for match organizers to manage all aspects of the match in one place
 
 Main body:
-• Include explanations of each feature and design pattern. Provide screenshots, if
-necessary (for example, we used observer to notify users about something).
-• Include UML diagram to illustrate the structure of the design patterns used in your
-project.
+• Include UML diagram to illustrate the structure of the design patterns used in your project.![umlpic](https://github.com/Bahandi25/sdpFinal/assets/121560352/b938307f-cdee-463a-a8a1-106685e055a7)
+
+
 The TeamManager class uses the Singleton design pattern.  Ensuring that this class has only one instance, providing one global access point to the data contained in this class.
 
 Pattern strategy determines the actions of team players such as running, defending, hitting.  Strategy defines these actions and makes them interchangeable.  Allows you to change the algorithm.
@@ -27,7 +26,7 @@ The State pattern is used here. What is this pattern? State is a behavioral desi
 The Adapter pattern is applied to make the TeamShop class compatible with the TicketAdapter interface used by the FootballTeamManager. It promotes flexibility and reusability, allowing the system to work with different ticket providers without altering the core logic.
 
 Conclusion:
-Our program is still open to many extensions, for example, you can add more global functions to organize all matches or add a database to store match results and maintain tournament tables.
+While writing the code, we were faced with the problem of combining the code of different team members. Our program is still open to many extensions, for example, you can add more global functions to organize all matches or add a database to store match results and maintain tournament tables.
 
 References:
 https://refactoring.guru/design-patterns/book
