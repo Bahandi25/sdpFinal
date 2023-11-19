@@ -22,6 +22,7 @@ The pattern decorator allows you to choose the color of the uniform and brand of
 The Observer pattern defines a one-to-many relationship between objects so that when the state of one object changes, all objects that depend on it are notified and updated automatically.  It allows you to send notifications to all subscribers about a football match event.
 
 The State pattern is used here. What is this pattern? State is a behavioral design pattern that lets an object alter its behavior when its internal state changes. It appears as if the object changed its class. The match is scheduled, but will it be or not? If the match does take place, then it will go on for 90 minutes. If not, then you need to specify the reason why the match was canceled, and users will receive a notification of cancellation for certain reasons.
+![Снимок экрана (612)](https://github.com/Bahandi25/sdpFinal/assets/121560352/428b634f-cff7-46f3-9b3e-de29e0ab8ddd)
 
 The Adapter pattern is applied to make the TeamShop class compatible with the TicketAdapter interface used by the FootballTeamManager. It promotes flexibility and reusability, allowing the system to work with different ticket providers without altering the core logic.
 
