@@ -47,8 +47,8 @@ public class FootballTeamManager {
         FootballStrategy coloredDefendStrategyTeamB = new ColorDecorator(defendStrategyTeamB, defendColorTeamB);
         FootballStrategy bootedDefendStrategyTeamB = new BootsDecorator(coloredDefendStrategyTeamB, defendBootTypeTeamB);
 
-        bootedRunStrategyTeamA.execute(); // Run strategy for TeamA
-        bootedDefendStrategyTeamB.execute(); // Defend strategy for TeamB
+        bootedRunStrategyTeamA.execute();
+        bootedDefendStrategyTeamB.execute();
 
         System.out.println("Enter the number of tickets to buy for TeamA:");
         int ticketsToBuyTeamA = scanner.nextInt();
