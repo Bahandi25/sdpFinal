@@ -2,12 +2,10 @@
 Name of your final project: Football Event Manager
 
 Group: SE-2213
+
 Team members: Bakhtiiar Abuev, Sagidolla Aldiiar, Tazhenov Tamerlan
+
 Project Overview:
-• Provide some information about your project.
-• Describe the idea of the project.
-• The purpose of the work.
-• The objectives of the work.
 A program for organizing and managing football matches.  The program provides the ability to create new matches with the function of customizing playing teams, dates, and player uniforms. The program also sends notifications to subscribers about matches.  And helps manage ticket sales with calculation of available seats.
 The program is designed for match organizers to manage all aspects of the match in one place
 Main body:
